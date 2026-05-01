@@ -1,0 +1,258 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kehamilan Andita//Subscription//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Program Kehamilan Andita
+X-WR-CALDESC:Auto Reminder Harian
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
+TZID:Asia/Jakarta
+X-LIC-LOCATION:Asia/Jakarta
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0700
+TZOFFSETTO:+0700
+TZNAME:WIB
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:01-tahajjud@kehamilan-andita.local
+DTSTAMP:20260430T080344Z
+DTSTART;TZID=Asia/Jakarta:20260430T043000
+DTEND;TZID=Asia/Jakarta:20260430T050000
+SUMMARY:🌙 Tahajjud + Doa Anak
+DESCRIPTION:Shalat tahajjud 2-4 rakaat.\nDoa dalam sujud untuk anak:\n- Doa Zakariya: Rabbi hab li min ladunka dhurriyyatan tayyibah (QS.3:38)\n- Doa Ibrahim: Rabbi hab li minash-shalihin (QS.37:100)\nReferensi: HR. Bukhari 1145\, Muslim 758
+RRULE:FREQ=DAILY;UNTIL=20261207T000000
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌙 Tahajjud + Doa Anak
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:02-subuh@kehamilan-andita
+DTSTAMP:20260430T080344Z
+DTSTART;TZID=Asia/Jakarta:20260430T050000
+DTEND;TZID=Asia/Jakarta:20260430T053000
+SUMMARY:🕌 Subuh + Dzikir Pagi
+DESCRIPTION:Shalat Subuh berjamaah.\nAyat Kursi (QS.2:255) 1x.\nAl-Ikhlas + Al-Falaq + An-Nas masing-masing 3x.\nTilawah Al-Quran 1-2 halaman.\nReferensi: HR. Abu Dawud 5082
+RRULE:FREQ=DAILY;UNTIL=20261207T000000
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🕌 Subuh + Dzikir Pagi
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:03-suplemen-pagi@kehamilan-andita
+DTSTAMP:20260430T080344Z
+DTSTART;TZID=Asia/Jakarta:20260430T070000
+DTEND;TZID=Asia/Jakarta:20260430T071500
+SUMMARY:💊 Suplemen 1 dari 4 (Asam Folat) + Sarapan
+DESCRIPTION:MINUM: 1 KAPSUL Asam Folat 400-600mcg.\n\nMinum bersama sarapan untuk penyerapan optimal.\nAsam Folat penting untuk pencegahan cacat tabung saraf janin.\n\nMENU SARAPAN:\nOatmeal + pisang + kacang almond + 1 sdt madu\natau Telur orak-arik + roti gandum + alpukat\n\nReferensi: Alberta Health Services 2024
+RRULE:FREQ=DAILY;UNTIL=20261207T000000
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Suplemen 1 dari 4 (Asam Folat) + Sarapan
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:04-snack-pagi@kehamilan-andita
+DTSTAMP:20260430T080344Z
+DTSTART;TZID=Asia/Jakarta:20260430T093000
+DTEND;TZID=Asia/Jakarta:20260430T094000
+SUMMARY:🍎 Snack Pagi
+DESCRIPTION:Yogurt plain + buah segar (blueberry/strawberry)\natau Pisang + kacang almond 10 biji\natau Smoothie alpukat dengan madu.\n\nProtein + lemak sehat untuk stabilkan gula darah.
+RRULE:FREQ=DAILY;UNTIL=20261207T000000
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🍎 Snack Pagi
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:05-dzuhur@kehamilan-andita
+DTSTAMP:20260430T080344Z
+DTSTART;TZID=Asia/Jakarta:20260430T120000
+DTEND;TZID=Asia/Jakarta:20260430T121500
+SUMMARY:🤲 Dzuhur + Istighfar 100x
+DESCRIPTION:Shalat Dzuhur.\nIstighfar 100x: Astaghfirullah al-Adzim.\nLafaz lengkap: Rabb ighfir li wa tub alayya innaka Antat-Tawwabur-Rahim.\n\nRasulullah beristighfar 100x/hari (Muslim 2702).\nIstighfar mendatangkan keturunan: QS. Nuh 71:10-12
+RRULE:FREQ=DAILY;UNTIL=20261207T000000
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🤲 Dzuhur + Istighfar 100x
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:06-suplemen-siang@kehamilan-andita
+DTSTAMP:20260430T080344Z
+DTSTART;TZID=Asia/Jakarta:20260430T120000
+DTEND;TZID=Asia/Jakarta:20260430T121500
+SUMMARY:💊 Suplemen 2 dari 4 (Prenatal MV) + Makan Siang
+DESCRIPTION:MINUM: 1 KAPSUL Prenatal Multivitamin (mengandung zat besi).\n\nMinum bersama makan siang. Iron diserap optimal dengan vitamin C dari sayur/jeruk.\nPENTING: JANGAN minum bersama susu/kalsium - mereka rebut penyerapan.\n\nMENU MAKAN SIANG:\nNasi merah + ikan salmon panggang + bayam tumis + tahu\natau Nasi + ayam bakar + sayur bening + tempe.\n\nHindari ikan tinggi merkuri (King Mackerel\, Swordfish\, Shark).
+RRULE:FREQ=DAILY;UNTIL=20261207T000000
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Suplemen 2 dari 4 (Prenatal MV) + Makan Siang
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:07-ashar@kehamilan-andita
+DTSTAMP:20260430T080344Z
+DTSTART;TZID=Asia/Jakarta:20260430T150000
+DTEND;TZID=Asia/Jakarta:20260430T151500
+SUMMARY:🕌 Ashar + Tilawah
+DESCRIPTION:Shalat Ashar.\nTilawah ringan 5-10 menit (Surah Maryam atau Luqman).\n\nWaktu doa yang dikabulkan menjelang Maghrib.
+RRULE:FREQ=DAILY;UNTIL=20261207T000000
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🕌 Ashar + Tilawah
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:08-exercise@kehamilan-andita
+DTSTAMP:20260430T080344Z
+DTSTART;TZID=Asia/Jakarta:20260430T153000
+DTEND;TZID=Asia/Jakarta:20260430T161500
+SUMMARY:🏃 Exercise / Prenatal Yoga
+DESCRIPTION:Pilih salah satu:\n- Jalan kaki 30 menit (setiap hari)\n- Prenatal yoga 30-45 menit (3-4x/minggu)\n- Berenang 30 menit (2-3x/minggu)\n- Senam kegel 10 menit (setiap hari)\n\nACOG: minimum 150 menit aerobik intensitas sedang per minggu.\nReferensi: ACOG Committee Opinion 804 (PMID:32217980)
+RRULE:FREQ=DAILY;UNTIL=20261207T000000
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃 Exercise / Prenatal Yoga
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:09-suplemen-sore@kehamilan-andita
+DTSTAMP:20260430T080344Z
+DTSTART;TZID=Asia/Jakarta:20260430T170000
+DTEND;TZID=Asia/Jakarta:20260430T171500
+SUMMARY:💊 Suplemen 3 dari 4 (Kalsium) + Adhkar Petang
+DESCRIPTION:MINUM: 1 KAPSUL Kalsium 500-600mg + Vitamin D 600-1000 IU.\n\nKalsium sengaja dipisah dari Iron (jam 12) supaya tidak rebut penyerapan.\nVitamin D bantu penyerapan kalsium.\n\nADHKAR PETANG:\nShalawat Ibrahimiyyah:\nAllahumma shalli ala Muhammad wa ala ali Muhammad kama shallaita ala Ibrahim wa ala ali Ibrahim innaka Hamidum Majid.\n\nReferensi: HR. Bukhari 3370\, Muslim 406 (Muttafaq alaih)
+RRULE:FREQ=DAILY;UNTIL=20261207T000000
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Suplemen 3 dari 4 (Kalsium) + Adhkar Petang
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:10-maghrib@kehamilan-andita
+DTSTAMP:20260430T080344Z
+DTSTART;TZID=Asia/Jakarta:20260430T180000
+DTEND;TZID=Asia/Jakarta:20260430T181500
+SUMMARY:🕌 Maghrib
+DESCRIPTION:Shalat Maghrib.\nDzikir setelah shalat.\nWaktu mustajab untuk doa.
+RRULE:FREQ=DAILY;UNTIL=20261207T000000
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🕌 Maghrib
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:11-makan-malam@kehamilan-andita
+DTSTAMP:20260430T080344Z
+DTSTART;TZID=Asia/Jakarta:20260430T183000
+DTEND;TZID=Asia/Jakarta:20260430T190000
+SUMMARY:🍽 Makan Malam
+DESCRIPTION:MENU:\nSup ayam + sayuran (wortel\, kentang\, brokoli)\natau Soto ayam + tauge + telur rebus\natau Nasi + opor ayam + urap sayuran.\n\nPorsi cukup\, jangan terlalu kenyang menjelang tidur.
+RRULE:FREQ=DAILY;UNTIL=20261207T000000
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🍽 Makan Malam
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:12-isya@kehamilan-andita
+DTSTAMP:20260430T080344Z
+DTSTART;TZID=Asia/Jakarta:20260430T193000
+DTEND;TZID=Asia/Jakarta:20260430T195000
+SUMMARY:🕌 Isya
+DESCRIPTION:Shalat Isya.\nDzikir setelah shalat.\nWitir 1 atau 3 rakaat (sunnah).
+RRULE:FREQ=DAILY;UNTIL=20261207T000000
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🕌 Isya
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:13-suplemen-dha@kehamilan-andita
+DTSTAMP:20260430T080344Z
+DTSTART:20260430T200000
+DTEND;TZID=Asia/Jakarta:20260430T201500
+SUMMARY:💊 Suplemen 4 dari 4 (DHA Omega-3) + Bonding
+DESCRIPTION:MINUM: 1 KAPSUL DHA / Omega-3 200-300mg.\n\nDHA bersifat fat-soluble - paling baik diserap setelah makan (lemak dari makan malam membantu penyerapan).\nDHA penting untuk perkembangan otak dan retina mata janin.\n\nBONDING WAKTU:\n- Mendengarkan murattal Al-Quran (Surah Maryam\, Ar-Rahman\, Yusuf)\n- Suami berbicara/membaca Quran di dekat perut\n- Quality time dengan pasangan\n\nMulai minggu 18+ janin sudah bisa mendengar suara dari luar.\nReferensi: UNICEF Maternal Nutrition 2024-2025
+RRULE:FREQ=DAILY;UNTIL=20261207T000000
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Suplemen 4 dari 4 (DHA Omega-3) + Bonding
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:14-pre-sleep@kehamilan-andita
+DTSTAMP:20260430T080344Z
+DTSTART;TZID=Asia/Jakarta:20260430T210000
+DTEND;TZID=Asia/Jakarta:20260430T211500
+SUMMARY:🌙 Pre-Sleep (Susu Hangat + Kurma)
+DESCRIPTION:Susu hangat + 2-3 kurma + 1 sdt madu.\nKurma membantu kontraksi optimal mendekati persalinan (QS. Maryam 19:25).\nMadu mengandung obat (QS. An-Nahl 16:69).\n\nReferensi: Sadeghi 2019 PMID:31331586\, HR. Bukhari 5681
+RRULE:FREQ=DAILY;UNTIL=20261207T000000
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌙 Pre-Sleep (Susu Hangat + Kurma)
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:15-doa-tidur@kehamilan-andita
+DTSTAMP:20260430T080344Z
+DTSTART;TZID=Asia/Jakarta:20260430T211500
+DTEND;TZID=Asia/Jakarta:20260430T213000
+SUMMARY:🤲 Doa Tidur + Al-Mulk
+DESCRIPTION:Wudhu sebelum tidur.\nBaca Surah Al-Mulk (HR. Tirmidzi 2890).\nTiup tangan + baca 3 Qul + usap tubuh.\nDoa perlindungan untuk anak: Uidzukuma bi kalimatillah at-tammah min kulli syaithanin wa hammah wa min kulli ainin lammah (HR. Bukhari 3371).\nTidur miring kanan (HR. Bukhari 6315).\n\nDoa: Bismika Allahumma amutu wa ahya.
+RRULE:FREQ=DAILY;UNTIL=20261207T000000
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🤲 Doa Tidur + Al-Mulk
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
